@@ -1,0 +1,98 @@
+@import "fontiran.css";
+body{
+	font-family: IRANSans !important;
+	direction: rtl;
+}
+.search-icon{
+	left: 14px;
+	right: auto;
+}
+.selectric .label {
+    display: block;
+    text-align: right;
+    margin: 0 0 0 40px;
+}
+.selectric .button {
+    left: 0;
+    right: auto;
+}
+.attach-files-ticket,.close-ticket{
+	float: left;
+	margin-right: auto;
+	margin-left: 8px;
+}
+.detailRow .value{
+	float: right;
+}
+detail-navigator:after{
+	content: "\e079";
+}
+.modal-footer {
+    direction: ltr;
+    text-align: left;
+}
+.page-left::after {
+    content: "\e080";
+}
+.page-right::after{
+	content: "\e079";
+}
+.update-time, .utime{
+	direction: ltr;
+	display: inline-block;
+}
+.forgot-password{
+	float: left;
+}
+.portalnavbar{
+	/* float: left; */
+}
+@media (min-width: 425px){
+	.search-container {
+	    position: absolute;
+	    top: 5px;
+	    z-index: 20;
+	    right: 30%;
+	}
+}
+@media (max-width: 426px){
+  body{
+    min-width: auto;
+  }
+	.userProfile{
+		position: absolute;
+		left:0;
+		top:0;
+	}
+	.search-container{
+		right:70px;
+	}
+	.navbar-toggle{
+		float: right;
+	}
+	.navbar-nav{
+		margin:0;
+	}
+	.navbar-nav>li>a {
+    padding: 15px 20px 10px;
+}
+
+.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: right;
+    left: 0;
+    right: auto;
+}
+.portalnavbar .dropdown-menu>li>a{
+	opacity: 1;
+	background-color: #2B313A;
+}
+.navbar-inverse .navbar-collapse{
+	position: absolute;
+	left: auto;
+    right: 0;
+    top: 49px;
+		background: #2B313A;
+		max-height: inherit;
+}
+}
