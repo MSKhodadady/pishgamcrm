@@ -79,12 +79,12 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost/crm/version%207.1.2%20FA/onRun/';
+$site_URL = 'http://localhost/pishgamCRM/pishgamcrm/';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/portal';
 // root directory path
-$root_directory = '/Applications/XAMPP/xamppfiles/htdocs/crm/version 7.1.2 FA/onRun/';
+$root_directory = '/Applications/XAMPP/xamppfiles/htdocs/pishgamCRM/pishgamcrm/';
 
 // cache direcory path
 $cache_dir = 'cache/';
