@@ -1,0 +1,932 @@
+@import "fontiran.css";
+
+*{
+	font-family: IRANSans,Tahoma,sans-serif;
+}
+body{
+	font-family: IRANSans !important;
+	direction: rtl;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: IRANSans !important;
+}
+body.modal-open {
+    padding-right: 0 !important;
+    padding-left: 0;
+}
+.fc-center h2{
+	direction: rtl;
+}
+canvas {
+    direction: ltr;
+    margin-bottom: 5px !important;
+    font-family: Tahoma !important;
+}
+.module-breadcrumb p.current-filter-name a {
+    display: inline-block;
+}
+.module-breadcrumb p.current-filter-name {
+	margin: 12px 0;
+	line-height: 16px;
+}
+.module-breadcrumb p.current-filter-name span {
+    display: inline-block;
+}
+.record-header .recordBasicInfo{
+	padding-left: 0;
+	padding-right: 90px;
+}
+.listViewEntries .dropdown-menu {
+    z-index: 1100;
+    right: 16px;
+    left: auto;
+}
+.dashboardWidgetContent .entryIcon {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.modal .modal-dialog {
+    direction: ltr;
+}
+.summaryViewEntries td.fieldValue > .row{
+	margin: 0;
+}
+.lists-menu > li > .pull-right > .js-popover-container > .fa{
+	margin-left: 10px;
+	margin-right: 0;
+}
+.viewContent .content-area{
+	padding-right: 50px;
+	padding-left: 15px;
+}
+.updates_timeline > li .update_info {
+    margin: 0 23% -47px 0;
+}
+ul.serviceInfo{
+	list-style: none;
+	padding-right: 10px;
+    line-height: 24px;
+}
+ul.serviceInfo li span{
+	color: #5E35B1;
+	padding-left: 5px;
+}
+ul.serviceInfo li .buyCredit{
+	color: #009688;
+}
+ul.serviceInfo li{
+	color: #F57C00;
+}
+.updates_timeline > li .update_icon {
+    right: 20%;
+    margin: 0 -27px 0 0;
+}
+.updates_timeline > li .update_time {
+    text-align: left;
+}
+.referencefield-wrapper {
+    display: table-cell;
+}
+.detailViewContainer .block hr {
+    margin: 10px 0;
+    border-top: 1px solid #8398ab;
+}
+.app-fixed-navbar {
+  background: #fff;
+  border-bottom: 0;
+  margin-bottom: 0;
+  border-top: 0;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 2px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.select2-container-multi .select2-search-choice-close {
+    left: 3px;
+    right: auto;
+}
+.vicon-storeman:before {
+	content: "\e683";
+}
+.vicon-storeinout:before {
+	content: "\e639";
+}
+.vicon-sellerman:before {
+	content: "\e688";
+}
+.updates_timeline:before{
+	right:19%;
+	left: auto;
+}
+.portal-dashboard {
+    border: 1px solid #EF5E29 !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    min-height: 500px;
+    padding-left: 15px;
+}
+.paddingRight0 {
+    padding-left: 0;
+		padding-right: 15px;
+}
+.addCommentBlock .paddingLeft0 {
+    padding-left: 15px;
+		padding-right: 0;
+}
+.addCommentBlock .commentAttachFile .text-left{
+	text-align: right;
+}
+.ui-pnotify{
+	right: auto !important;
+	left: 25px;
+}
+.ui-pnotify-icon, .ui-pnotify-icon span {
+    display: block;
+    float: right;
+    margin-left: .2em;
+    margin-right: 0;
+}
+.help-inline {
+    margin-right: -15px;
+    margin-left: 0px;
+    float: right;
+}
+.portalMenuHeader {
+    border-bottom: 1px solid #EF5E29 !important;
+    border-left: 1px solid #EF5E29 !important;
+    font-size: 22px;
+}
+.portalMenuHeader {
+    border-bottom: 1px solid #EF5E29 !important;
+    border-left: 1px solid #EF5E29 !important;
+    border-right: 0px !important;
+    font-size: 22px;
+}
+.portalModuleRow .cp-modules-home,
+.portalModuleRow {
+    border-right: 4px solid #EF5E29 !important;
+    border-left: 0px !important;
+}
+.modal.in .modal-dialog {
+    direction: ltr;
+}
+.modal-open .modal {
+
+}
+.modal-content {
+    direction: rtl;
+		left: auto !important;
+}
+strong{
+	font-family: IRANSans,"OpenSans-Regular",sans-serif;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+strong, b, th{
+	font-family: "IranSans";
+}
+.app-item-color-TOOLS {
+    border-left: 0px;
+    border-right: 4px solid #EF5E29;
+}
+.listview-table-norecords .table-actions .input input, .listview-table .table-actions .input input{
+	margin-top:2px;
+}
+#listColumnFilterContainer .listColumnFilter{
+	margin-right: 20%;
+	margin-left: 0;
+}
+.btn-group #PreviousPageButton.btn,.btn-group #PageJump.btn, .btn-group #NextPageButton.btn {
+   float: left;
+}
+.select2-container .select2-choice > .select2-chosen{
+	    margin-left: 26px;
+			margin-right: 0;
+			text-align: right;
+}
+.modal-header h4 {
+    min-width: 60%;
+}
+.listViewPageDiv .treeView {
+    direction: ltr;
+}
+.select2-container .select2-choice .select2-arrow{
+	right:auto;
+	left: 0;
+}
+.current-filter-name{
+	line-height: 13px;
+}
+input[type=radio]:checked::after, .radio input[type=radio]:checked::after, .radio-inline input[type=radio]:checked::after{
+	left: auto;
+	right: 3px;
+}
+.current-filter-name a{
+	display:inline;
+}
+.overlayPageContent .modal-overlay-footer{
+	margin-right: 0px;
+	margin-left: 0px !important;
+	border-right: 0;
+	border-left-width: 0px;
+}
+.settingsPageDiv .modal-overlay-footer{
+	border-left: 0px solid #2c3b49;
+	border-right: 230px solid #2c3b49;
+}
+.overlayPageContent.fade.overlay-container-300 {
+    margin-right: 230px;
+    margin-left: 0px;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.global-nav .logo-container {
+  padding-right: 6%;
+	padding-left: auto;
+	width: auto;
+}
+.company-logo {
+  width: auto;
+}
+.global-nav .global-actions {
+  padding-right: auto;
+  padding-left: 15px;
+}
+.search-link .keyword-input, .searchWorkflows {
+	direction: rtl;
+  width: 80%;
+}
+#composeEmailContainer .modal-body .quickCreateContent, #QuickCreate .modal-body .quickCreateContent, #create .quickCreateContent {
+    direction: rtl;
+}
+.dashboardWidgetContent .entry .col-lg-1{
+	/* padding: 0; */
+}
+.quickCreateContent .referencefield-wrapper .inputElement{
+}
+.clearReferenceSelection{
+	border: 1px solid #ddd;
+    border-right: 0;
+}
+.datepicker.dropdown-menu{
+	right: auto;
+}
+.calendarQuickCreateContent .input-group.inputElement .input-group-addon{
+	border-left: 0px;
+	border-right:1px solid #ddd;
+}
+.webui-popover{
+	direction: rtl;
+}
+.webui-popover-content > span:first-child{
+	direction: rtl;
+	text-align: right;
+	float: right;
+}
+.webui-popover-title{
+	text-align: right;
+}
+.webui-popover-inner .close {
+    margin: 5px 0px 0 10px;
+    float: left;
+}
+.bootbox-body {
+    text-align: right;
+}
+div#mycalendar{
+}
+.webui-popover.bottom > .arrow:after, .webui-popover.bottom-right > .arrow:after, .webui-popover.bottom-left > .arrow:after{
+	left: 0;
+}
+.modal-footer {
+    direction: rtl;
+}
+.popupEntriesDiv {
+    direction: rtl;
+}
+.editViewContents .input-group {
+    width: 229px;
+    float: right;
+}
+.select2-results .select2-result-label{
+	text-align: right;
+	direction: rtl;
+}
+.global-actions .dropdown-menu:before {
+		right: auto;
+    left: 13px;
+}
+.global-actions .dropdown-menu:after{
+	right: auto;
+	left: 14px;
+}
+.app-menu .app-modules-dropdown {
+  left: auto;
+  right: 229px;
+}
+.app-menu .menu-items-wrapper {
+  padding-left: 0;
+  padding-right: 8px;
+	direction: rtl;
+}
+.app-menu .app-name{
+	padding-left: 0;
+	padding-right: 2%;
+}
+.app-menu .fa-chevron-left {
+    font-size: 0.7em;
+    padding-top: 9px;
+    padding-right: 10px;
+}
+.app-item {
+    margin-right: 2px;
+    text-shadow: 0 0 1px #000;
+		font-size: 12px;
+}
+.app-menu .app-name{
+	font-weight: normal;
+}
+.app-item-color-MARKETING {
+    border-left: 0;
+    border-right: 4px solid #EF5E29;
+}
+.app-item-color-SALES {
+  border-left: 0;
+  border-right: 4px solid #3CB878;
+}
+.app-item-color-INVENTORY {
+  border-left: 0;
+  border-right: 4px solid #F1C40F;
+}
+.app-item-color-SUPPORT {
+  border-left: 0;
+  border-right: 4px solid #6297C3;
+}
+.app-item-color-PROJECT {
+  border-left:0;
+  border-right: 4px solid #8E44AD;
+}
+.app-menu .app-modules-dropdown li {
+    direction: rtl;
+}
+.app-menu .app-modules-dropdown li a{
+	padding-left: 0px;
+	padding-right: 20px;
+}
+.app-menu .app-modules-dropdown{
+	font-size: 12px;
+}
+.app-menu .app-modules-dropdown li a .module-name {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+.module-action-bar .module-breadcrumb a {
+    display: inline-block;
+    float: right;
+}
+.module-action-bar .module-title{
+	font-family: "IranSans";
+	font-size: 12px;
+	line-height: 16px;
+}
+.module-action-bar div > span.fa.fa-angle-right{
+	padding-bottom: 15px;
+    padding-right: 6px;
+    padding-left: 6px !important;
+    padding-top: 0 !important;
+}
+.module-action-bar span.fa.fa-angle-right{
+	transform: rotate(180deg);
+	padding-left: 2px;
+	padding-bottom: 4px;
+}
+#quickCreateModules .quick-create-module{
+	overflow-x: inherit;
+	font-size: 11px;
+	padding: 0 12px 0 0;
+}
+#quickCreateModules [class^="vicon-"], #quickCreateModules [class*=" vicon-"]{
+	float: right !important;
+}
+#quickCreateModules .quickcreateMoreDropdownAction {
+    float: left;
+}
+#quickCreateModules .quickcreateMoreDropdown {
+    left: 10%;
+    top: 20px;
+    min-width: 170px;
+		direction: rtl;
+}
+.select2-container-multi .select2-choices .select2-search-choice{
+	margin-left: 0;
+	margin-right: 5px;
+}
+.select2-container-multi .select2-choices li{
+	float: right;
+}
+#taskManagementContainer .title {
+    width: 30%;
+    direction: rtl;
+    text-align: center;
+}
+.input-group{
+	direction: rtl;
+	float: right;
+}
+.overlay-container-60{
+	margin-left: 0;
+}
+.crumbs li:after {
+    border-right: 20px solid #ECECEC !important;
+		border-left: 0px !important;
+    top: -20px;
+    left: -20px;
+		right: auto;
+}
+.crumbs li:hover:after {
+    border-right: 20px solid #FBFBFB !important;
+    border-left: 0px !important;
+}
+.dateLtr{
+	direction: ltr;
+	display: inline-block;
+}
+.crumbs li.active:after {
+    border-right: 20px solid #596875 !important;
+    border-left: 0px !important;
+}
+.crumbs li {
+    border-right: 20px solid transparent;
+    border-left: 0px solid transparent;
+}
+.dashBoardContainer .tabContainer .sortable button {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.dashboardBanner{
+	display: none;
+}
+.module-breadcrumb .pull-left{
+	float: right !important;
+}
+.module-breadcrumb .fa-angle-right:before{
+	content: "\f104";
+}
+.select2-results li.select2-result-with-children > .select2-result-label {
+    font-weight: bold;
+		direction: rtl;
+		text-align: right;
+}
+.select2-results ul.select2-result-sub>li .select2-result-label {
+    padding-left: 0px;
+    padding-right: 20px;
+    direction: rtl;
+    text-align: right;
+}
+.modal-header .pull-left,.datacontent .pull-left{
+	float: right !important;
+}
+.modal-header .pull-right,.datacontent .pull-right{
+	float: left !important;
+}
+.modules-menu ul li.active a {
+    border-right: 3px solid #EF5E29;
+    border-left: 0;
+}
+.modules-menu ul li.active a {
+    padding-right: 8px;
+		padding-left: 11px;
+}
+.essentials-toggle {
+    right: -1px;
+		left: auto;
+    border: 1px solid #DDDDDD;
+    border-right: 0;
+		line-height: 10px;
+		padding-top: 6px !important;
+}
+.listViewPageDiv.content-area.full-width, .CalendarViewPageDiv.content-area.full-width, .editViewPageDiv.content-area.full-width, .settingsPageDiv.content-area.full-width {
+    padding-left: 0;
+    padding-right: 42px !important;
+}
+.pull-left{
+	float: right !important;
+}
+.pull-right{
+	float: left !important;
+}
+
+.modal-overlay-footer {
+    border-right: 42px solid #2c3b49;
+    border-left: 0;
+		direction: rtl;
+}
+.settingsgroup-accordion i.indicator.fa.fa-chevron-right {
+    transform: rotate(180deg);
+}
+.listview-table-norecords .listViewEntries .table-actions span, .listview-table .listViewEntries .table-actions span {
+    float: right;
+}
+.listview-table-norecords .table-actions, .listview-table .table-actions {
+    margin-right: 7px;
+    margin-left: 0px;
+}
+.settingsgroup ul li a {
+    padding: 8px 50px 8px 8px;
+}
+.vt-notification {
+	left: 50px !important;
+	right: auto !important;
+	text-align: right;
+}
+.vt-notification .notificationHeader {
+  font-size: 17px;
+  padding-bottom: 8px;
+	direction: rtl;
+}
+.vt-notification .notificationHeader [data-notify="title"] {
+  color: #FFFFFF;
+  margin-right: 8px;
+}
+.search-link span.fa.fa-search{
+}
+.modules-menu ul{
+	direction: ltr;
+}
+.settingsgroup ul.list-group {
+    font-size: 11px;
+}
+.settingsgroup-accordion {
+    font-size: 12px;
+}
+.search-link{
+	direction: rtl;
+}
+.detailview-table .fieldValue, .detailview-table .fieldLabel {
+    padding: 8px;
+		line-height: 32px;
+		min-height: 48px;
+		max-height: 120px;
+		overflow: hidden;
+}
+.input-save-wrap{
+	float: none;
+	margin-top: 0;
+
+}
+.referencefield-wrapper {
+    float: right;
+    width: 60%;
+}
+
+.blockData .detailview-table div.row{
+	border-bottom: 1px solid #ddd;
+}
+.detailview-table .fieldValue .action{
+	display: none;
+}
+.detailview-table .fieldValue:hover .action{
+	display: inline-block;
+}
+.editViewContents .fieldLabel{
+	padding: 8px;
+	margin-bottom: 10px;
+	text-align: left;
+	line-height: 32px;
+}
+.editViewContents .text-left {
+    text-align: right;
+}
+.editViewContents .text-right {
+    text-align: left;
+}
+.editViewContents .fieldValue{
+	padding: 8px;
+	margin-bottom: 10px;
+}
+div.search-link .keyword-input, .searchWorkflows {
+    border: 0;
+    height: 30px;
+    width: 70%;
+    margin: 1px 5px 1px 0px;
+}
+#settingsShortCutsContainer .well{
+	margin-left: 0 !important;
+	margin-right: 19px;
+}
+
+.app-footer p {
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.6)!important;
+    margin-bottom: 0;
+    padding: 4px 0;
+    color: #fff;
+    font-size: 10px;
+}
+.dashboardWidgetContent .entry b {
+    direction: ltr;
+    display: inline-block;
+}
+.update-from em, .update-to em {
+    direction: ltr !important;
+    display: inline-block;
+}
+.updates_timeline > li .update_info > .updateInfoContainer .update-name {
+    font-family: IranSans,'OpenSans-Semibold', sans-serif;
+    margin-bottom: 2px;
+}
+.floatThead-wrapper {
+    margin-bottom: 40px;
+}
+.cancelLink, .popoverCancel {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: red;
+}
+@media (max-width: 1199px) {
+	.related-tabs-mobile {
+    margin-top: 10px;
+	}
+	.detailview-table .fieldValue .action,.detailview-table .fieldValue:hover .action{
+		display: inline-block;
+	}
+}
+@media (min-width: 992px) {
+  .app-nav .module-action-bar {
+    padding-right: 42px;
+    padding-left: 0;
+  }
+	.main-container .settingsPageDiv.content-area {
+    padding-right: 230px;
+	}
+	.main-container .module-nav {
+    right: 0;
+    left: auto;
+		direction: rtl;
+	}
+	.main-container.main-container-Reports .sidebar-essentials ,
+	.main-container.main-container-Documents .sidebar-essentials {
+		right: 0;
+	}
+	.listViewContentHeader .table-actions > div.dropdown{
+		float: right !important;
+		margin-right: 6px;
+		margin-left: 0px !important;
+	}
+	.main-container .sidebar-essentials {
+    right: 42px;
+    left: auto;
+		border-left: 1px solid #DDDDDD;
+		border-right: 0;
+		direction: rtl;
+		z-index: 1003;
+	}
+
+	.main-container.main-container-RecycleBin .content-area,
+	.main-container.main-container-Documents .content-area,
+	.main-container.main-container-PBXManager .content-area,
+	.main-container.main-container-ProjectMilestone .content-area,
+	.main-container.main-container-ProjectTask .content-area,
+	.main-container.main-container-Project .content-area,
+	.main-container.main-container-Assets .content-area,
+	.main-container.main-container-ServiceContracts .content-area,
+	.main-container.main-container-Faq .content-area,
+	.main-container.main-container-HelpDesk .content-area,
+	.main-container.main-container-PurchaseOrder .content-area,
+	.main-container.main-container-PriceBooks .content-area,
+	.main-container.main-container-Vendors .content-area,
+	.main-container.main-container-Invoice .content-area,
+	.main-container.main-container-SalesOrder .content-area,
+	.main-container.main-container-Potentials .content-area,
+	.main-container.main-container-SMSNotifier .content-area,
+	.main-container.main-container-Services .content-area,
+	.main-container.main-container-Products .content-area,
+	.main-container.main-container-Contacts .content-area,
+	.main-container.main-container-Quotes .content-area,
+	.main-container.main-container-Accounts .content-area,
+	.main-container.main-container-Campaigns .content-area,
+	.main-container.main-container-Reports .content-area,
+	.main-container.main-container-Andicator .content-area,
+	.main-container .CalendarViewPageDiv.content-area,
+	.main-container .CalendarViewPageDiv.content-area,
+	.main-container.main-container-Calendar .content-area,
+	.main-container.main-container-Storeinout .content-area,
+	.main-container.main-container-Storeman .content-area,
+	.main-container.main-container-Sellerman .content-area,
+	.main-container.main-container-Leads .content-area{
+		padding-right: 283px;
+	}
+	.dashboardWidget .muted{
+		padding-right: 0 !important;
+		padding-left: 10px;
+	}
+	.mCustomScrollBox > div > div{
+		direction: rtl !important;
+	}
+	.dashboardWidget .muted small{
+		direction: rtl;
+	}
+.overlay-container-60{
+	margin-right:43px;
+}
+.main-container .content-area{
+	padding-left: 15px;
+}
+	.main-container .editViewPageDiv .content-area {
+    padding-right: 50px;
+    padding-left: 15px;
+		direction: rtl;
+	}
+
+	.app-nav .module-action-bar .module-action-content {
+    direction: rtl;
+	}
+}
+.fa.LBL_EDIT:before {
+    content: "\f040";
+}
+.fa.LBL_SEND_EMAIL:before {
+    content: "\f0e0";
+}
+@media (max-width: 1025px){
+	.dashBoardContainer .tabContainer li a .deleteTab{
+		margin-right:10px;
+	}
+
+}
+@media (max-width: 991px){
+	.record-header .recordBasicInfo {
+	    padding-right: 10px;
+	}
+	#settingsShortCutsContainer .close{
+		display: block;
+	}
+	.overlayPageContent.fade.overlay-container-300{
+		margin-right: 0;
+	}
+	.editViewContents .fieldLabel{
+		text-align:right;
+	}
+	.settingsPageDiv .modal-overlay-footer{
+		border-right: 0;
+		border-left: 0;
+	}
+	footer {
+	    min-width: 100%;
+	    margin: 0px;
+	    position: fixed;
+	    bottom: 0px;
+			z-index: 9999;
+	}
+}
+@media (max-width: 769px){
+	.company-logo img {
+	    height: 80%;
+	    margin-top: 4px;
+	    margin-right: 4px;
+	}
+	#quickCreateModules_mobile [class^="vicon-"], #quickCreateModules_mobile [class*=" vicon-"] {
+		font-size: 14px;
+		color: #888;
+		margin-left: 5px;
+	}
+	#quickCreateModules .row .col-lg-4{
+		height: 30px;
+	}
+	.quickCreateContent .pull-right{
+		float: right !important;
+	}
+	.quickCreateContent .fieldLabel,.quickCreateContent .fieldValue{
+		margin-bottom:10px;
+		height: 32px;
+	}
+	.app-modules-dropdown {
+				z-index: -10 !important;
+		}
+	.app-menu .open > .app-modules-dropdown {
+	    right: 43px !important;
+			left: auto !important;
+			z-index: 1000 !important;
+			height: 100vh !important;
+	}
+	.mobleft{
+		text-align: left;
+	}
+	.app-modules-dropdown-container .dropdown-backdrop{
+		display: none;
+	}
+	.detailViewContainer .content-area {
+		padding-right: 15px;
+	}
+	.editViewPageDiv.viewContent .content-area {
+    margin-top: 60px;
+		padding-right: 15px;
+	}
+	.modal-overlay-footer {
+    border-right: 0px;
+	}
+	.module-nav{
+		margin-top: 60px;
+	}
+	.dashBoardContainer{
+		margin-top: 60px;
+	}
+	.navbar-nav .open .detailViewSetting.dropdown-menu {
+		position: absolute;
+    padding: 6px 0;
+    margin: 1px 0 0;
+    font-size: 13px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+	.navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+}
+
+	.app-menu .app-modules-dropdown{
+		z-index: -10 !important;
+	}
+	.sidebar-essentials{
+		margin-top: 60px;
+	}
+	.essentials-toggle{
+		display: none;
+	}
+	.app-footer{
+		display: none;
+	}
+}
+@media (max-width: 425px){
+	li#quickCreateModules_mobile span {
+	    font-size: 12px;
+	}
+
+	li#quickCreateModules_mobile div.col-xs-12 {
+    margin-bottom: 6px;
+	}
+	.dashBoardContainer .dashBoardTabContents ul li {
+	    width: 330px;
+	}
+	.dashBoardContainer .tabContainer ul {
+    margin: 0 auto 0 0;
+	}
+	#messageBar > div{
+		left:95px !important;
+	}
+}
+@media (max-width: 321px){
+	.dashBoardContainer .dashBoardTabContents ul li {
+	    width: 280px;
+	}
+	.dashBoardContainer .tabContainer ul {
+    margin: 0 auto 0 0;
+	}
+	#messageBar > div{
+		left:50px !important;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 427px){
+	.dashBoardContainer .dashBoardTabContents ul li {
+	    width: 330px;
+	}
+	.dashBoardContainer .tabContainer ul {
+    margin: 0 auto 0 0;
+	}
+}
+.layoutContent .editFields{
+	border:0;
+	border-left: 1px solid #DDDDDD;
+	min-height: 133px;
+}
+.fieldLabelContainer.row .pull-right {
+    float: right !important;
+}
+li.ui-sortable-handle {
+    margin-bottom: 4px;
+}
+.layoutContent .blockFieldsList ul{
+	float: right;
+	margin-left: 0;
+	margin-right: 4%;
+}
+.splitterContainer{
+	direction: ltr;
+}
+.splitterContainer .splitElement:first-child{
+	direction: rtl;
+}
+.taskBoxSVG {
+	direction: rtl;
+}
