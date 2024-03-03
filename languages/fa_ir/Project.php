@@ -1,0 +1,81 @@
+<?php
+/*+***********************************************************************************
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+ *************************************************************************************/
+$languageStrings = array (
+  'Actual End Date' => 'تاريخ پايان واقعي',
+  'LBL_ADD_RECORD' => 'افزودن پروژه',
+  'LBL_CHARTS' => 'نمودار ها',
+  'LBL_DOWNLOAD_FILE' => 'دانلود فایل',
+  'LBL_MILESTONES_LIST' => 'لیست فازهای پروژه',
+  'LBL_MILESTONES' => 'فازها',
+  'LBL_MORE' => 'بیشتر',
+  'LBL_PEOPLE' => 'افراد',
+  'LBL_CHART' => 'نمودار',
+  'Is Converted From Opportunity' => 'از فرصت های فروش تبدیل شده',
+  'Add Project Task' => 'ثبت وظیفه پروژه',
+
+  'LBL_PROJECT_INFORMATION' => 'اطلاعات پروژه',
+  'LBL_RECORDS_LIST' => 'لیست پروژه ها',
+  'LBL_SELECT_PROGRESS' => 'انتخاب مرحله',
+  'LBL_STATUS_IS' => 'وضعیت',
+  'LBL_STATUS' => 'وضعیت',
+  'LBL_TASKS_COMPLETED' => 'وظایف انجام شده',
+  'LBL_TASKS_DUE' => 'سررسید وظایف',
+  'LBL_TASKS_HIGH' => 'اولویت بالا',
+  'LBL_TASKS_LIST' => 'لیست وظایف',
+  'LBL_TASKS_LOW' => 'اولویت پایین',
+  'LBL_TASKS_NORMAL' => 'اولویت معمولی',
+  'LBL_TASKS_OPEN' => 'وظایف باز',
+  'LBL_TASKS_OTHER' => 'اولویت دیگر',
+  'LBL_TASKS' => 'وظایف',
+  'LBL_TICKET_PRIORITY' => 'الویت تیکت',
+  'Progress' => 'پیشرفت',
+  'Project Name' => 'نام پروژه',
+  'Project No' => 'شماره پروژه',
+  'Project Url' => 'آدرس وب',
+  'SINGLE_Project' => 'پروژه',
+  'Start Date' => 'تاريخ شروع',
+  'Target Budget' => 'بودجه هدف',
+  'Target End Date' => 'تاريخ پايان هدف',
+  'prospecting' => 'پیگیری',
+  'Related to' => 'مربوط به',
+  'Project'=>'پروژه ها',
+	'Type' => 'نوع',
+	'LBL_SELECT_STATUS' => 'انتخاب وضعیت',
+	'in progress' => 'در حال پیشرفت',
+	'initiated' => 'شروع شده',
+	'waiting for feedback' => 'منتظر بازخورد',
+	'on hold' => 'در انتظار',
+	'archived' => 'بایگانی شده',
+	'completed' => 'کامل شده',
+	'delivered' => 'تحویل شده',
+	'administrative' => 'اداری',
+	'operative' => 'عملیاتی',
+	'other' => 'غیره',
+	'low' => 'کم',
+	'normal' => 'معمولی',
+	'high' => 'بالا',
+	'LBL_PROGRESS_CHART' => 'نمودار پیشرفت',
+	'LBL_TASK_NAME' => 'عنوان وظیفه',
+	'LBL_START_DATE' => 'تاریخ شروع',
+	'LBL_END_DATE' => 'تاریخ پایان',
+	'LBL_DURATION' => 'مدت زمان',
+	'LBL_INFO' => 'اطلاعات',
+	'LBL_GANTT_INFO1' => 'برای تغییر در مدت زمان وظیفه،سمت راست آن را بکشید.',
+	'LBL_GANTT_INFO2' => 'برای تغییر در تاریخ شروع و پایان، با کلیک سمت چپ یا مرکز وظیفه آن را به چپ یا راست بکشید.',
+	'LBL_EDIT_PROJECT_TASK_STATUS_COLOR' => 'ویرایش رنگ وضعیت وظیفه',
+	'LBL_SELECT_PROJECT_TASK_STATUS_COLOR' => 'انتخاب رنگ وضعیت وظیفه',
+	'LBL_SELECT_STATUS' => 'انتخاب وضعیت',
+	'LBL_EDIT_COLOR' => 'ویرایش رنگ',
+	'Canceled' => 'لغو شده',
+);
+
+$jsLanguageStrings = array(
+	'JS_COLOR_SAVED_SUCESSFULLY' => 'رنگ مورد نظر با موفقیت ذخیره شد.',
+);
