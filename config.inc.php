@@ -16,7 +16,7 @@
 // Adjust error_reporting favourable to deployment.
 version_compare(PHP_VERSION, '5.5.0') <= 0 ? error_reporting(E_WARNING & ~E_NOTICE & ~E_DEPRECATED & E_ERROR) : error_reporting(E_WARNING & ~E_NOTICE & ~E_DEPRECATED  & E_ERROR & ~E_STRICT); // PRODUCTION
 //ini_set('display_errors','on'); version_compare(PHP_VERSION, '5.5.0') <= 0 ? error_reporting(E_WARNING & ~E_NOTICE & ~E_DEPRECATED) : error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT);   // DEBUGGING
- //ini_set('display_errors','on'); error_reporting(E_ALL); // STRICT DEVELOPMENT
+//ini_set('display_errors','on'); error_reporting(E_ALL); // STRICT DEVELOPMENT
 
 
 include('vtigerversion.php');
@@ -44,11 +44,11 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
       db_name
 */
 
-$dbconfig['db_server'] = 'localhost';
-$dbconfig['db_port'] = ':3306';
-$dbconfig['db_username'] = 'root';
-$dbconfig['db_password'] = '';
-$dbconfig['db_name'] = 'vtiger';
+$dbconfig['db_server'] = getenv('db_server');
+$dbconfig['db_port'] = ':' . (getenv('db_port') ?? '3306');
+$dbconfig['db_username'] = getenv('db_username');
+$dbconfig['db_password'] = getenv('db_password');
+$dbconfig['db_name'] = getenv('db_name');
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
 
@@ -79,12 +79,12 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost/pishgamCRM/pishgamcrm/';
+$site_URL = getenv('site_URL');
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/portal';
 // root directory path
-$root_directory = '/Applications/XAMPP/xamppfiles/htdocs/pishgamCRM/pishgamcrm/';
+$root_directory = '/var/www/html/';
 
 // cache direcory path
 $cache_dir = 'cache/';
@@ -172,11 +172,10 @@ $default_timezone = 'UTC';
 
 /** If timezone is configured, try to set it */
 if(isset($default_timezone) && function_exists('date_default_timezone_set')) {
-	@date_default_timezone_set($default_timezone);
+      @date_default_timezone_set($default_timezone);
 }
 
 //Set the default layout
 $default_layout = 'v7';
 
 include_once 'config.security.php';
-?>
