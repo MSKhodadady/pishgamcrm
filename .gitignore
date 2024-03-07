@@ -3,3 +3,4 @@
 
 docker-compose.yml
 docker-run.sh
+_docker-mariadb/mysql-run.sh
