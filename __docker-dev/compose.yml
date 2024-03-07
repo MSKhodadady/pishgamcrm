@@ -1,0 +1,33 @@
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ..:/var/www/html
+    networks:
+      - my-net
+  php:
+    build:
+      context: .
+      dockerfile: DEV.Dockerfile
+    volumes:
+      - ..:/var/www/html
+      - ./xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      - ./error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini
+    networks:
+      - my-net
+    expose:
+      - 9000
+    environment:
+      - db_server=my-mariadb
+      - db_username=root
+      - db_password=hlblwg
+      - db_name=vtiger
+      - site_URL=http://hello-boy.com
+networks:
+  my-net:
+    external: true
+
+# -------------------------------------------------

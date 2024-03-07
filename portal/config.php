@@ -24,51 +24,55 @@ if (file_exists('PortalConfig.php')) {
 	}
 }
 
-class Portal_Config_Data {
+class Portal_Config_Data
+{
 
-	protected static $data = array(
-		//CRM URL without trialing/
-		//Example: http://yourdomain.com/crm
-		'crm.url' => 'http://localhost/crm/version%207.1.2%20FA/onRun',
-
-		//Portal URL without trialing/
-		//Example: http://yourdomain.com/portal
-		'portal.url' => 'http://localhost/crm/version%207.1.2%20FA/onRun/portal',
-
-		'crm.version' => '7.1.0', // Framework version for API
-		'language' => 'fa_ir', // Default Language for API. Note : Changing the language here will not change the default/login language for Portal user.
-		'layout' => 'default',
-	);
-
-	protected static function getData() {
+	protected static function getData()
+	{
 		global $crmUrlFromPC;
 
-		$crmUrl = self::$data['crm.url'];
+		$data = array(
+			//CRM URL without trialing/
+			//Example: http://yourdomain.com/crm
+			'crm.url' => getenv('site_URL'),
+
+			//Portal URL without trialing/
+			//Example: http://yourdomain.com/portal
+			'portal.url' => getenv('site_URL') . '/portal',
+
+			'crm.version' => '7.1.0', // Framework version for API
+			'language' => 'fa_ir', // Default Language for API. Note : Changing the language here will not change the default/login language for Portal user.
+			'layout' => 'default',
+		);
+		
+
+		$crmUrl = $data['crm.url'];
 		if (!$crmUrl && $crmUrlFromPC) {
 			$crmUrl = $crmUrlFromPC;
-			self::$data['crm.url'] = $crmUrlFromPC;
+			$data['crm.url'] = $crmUrlFromPC;
 		}
 		if ($crmUrl) {
-			self::$data['crm.connect.url'] = $crmUrl.'/modules/CustomerPortal/api.php';
+			$data['crm.connect.url'] = $crmUrl . '/modules/CustomerPortal/api.php';
 		}
 
 		global $portalUrlFromPC;
-		$portalUrl = self::$data['portal.url'];
+		$portalUrl = $data['portal.url'];
 		if (!$portalUrl && $portalUrlFromPC) {
-			self::$data['portal.url'] = $portalUrlFromPC;
+			$data['portal.url'] = $portalUrlFromPC;
 		}
 
-		self::$data['upload_max_filesize'] = '100 MB';
+		$data['upload_max_filesize'] = '100 MB';
 		//defaultUiLanguage is the ui language, should be one of the values from availableLanguages.
-		self::$data['ui.Language'] = array('label' => 'Farsi', 'value' => 'fa_ir');
+		$data['ui.Language'] = array('label' => 'Farsi', 'value' => 'fa_ir');
 
 		//availableLanguages is the array containing all the label and value pair of all supported languages.
-		self::$data['languages'] = array(
-										array('label' => 'Farsi', 'value' => 'fa_ir')
-									);
-		return self::$data;
+		$data['languages'] = array(
+			array('label' => 'Farsi', 'value' => 'fa_ir')
+		);
+		
+		
+		return $data;
 	}
-
 }
 
 //Give a temporary directory path which is used when we upload attachment

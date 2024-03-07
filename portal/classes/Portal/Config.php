@@ -22,8 +22,9 @@ class Portal_Config extends Portal_Config_Data {
 		return isset($data[$key]);
 	}
 
-	public static function set($key, $value) {
-		self::$data[$key] = $value;
-	}
+	//: not needed then commented
+	// public static function set($key, $value) {
+	// 	self::$data[$key] = $value;
+	// }
 
 }
