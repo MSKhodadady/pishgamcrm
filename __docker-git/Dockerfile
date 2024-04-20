@@ -10,9 +10,7 @@ ENV WEB_DOCUMENT_ROOT=/var/www/html
 WORKDIR /var/www/html
 
 #: copy project
-COPY . .
+RUN git clone https://github.com/MSKhodadady/pishgamcrm.git /var/www/html
 
 #: set access to files
 RUN chmod -R 777 /var/www/html
-
-

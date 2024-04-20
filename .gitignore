@@ -1,6 +1,8 @@
 
 *.log
 
-docker-compose.yml
 docker-run.sh
-_docker-mariadb/mysql-run.sh
+__docker-mariadb/mysql-run.sh
+
+
+*liara.json
